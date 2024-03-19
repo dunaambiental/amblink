@@ -3,32 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Seu Título Aqui</title>
-    <!-- Referência externa ao CSS -->
+    <title>Amblink</title>
+    <!-- Substitua 'style.css' pelo caminho correto do seu arquivo CSS se estiver em uma subpasta -->
     <link rel="stylesheet" href="style.css">
-    <!-- Estilos CSS embutidos para demonstração -->
-    <style>
-    body {
-        font-family: Arial, sans-serif;
-        margin: 0;
-        padding: 20px;
-        background-color: #f4f4f4;
-    }
-    h1 {
-        color: #009688;
-    }
-    </style>
 </head>
 <body>
-    <h1>Olá, GitHub Pages!</h1>
+    <header>
+        <h1>Amblink</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="clientes.html">Clientes</a></li>
+                <!-- Adicione mais links conforme necessário -->
+            </ul>
+        </nav>
+    </header>
     
-    <!-- Script JavaScript externo -->
+    <main>
+        <section>
+            <h2>Bem-vindo à Amblink</h2>
+            <p>Descrição do serviço ou conteúdo introdutório.</p>
+            <!-- Conteúdo adicional -->
+        </section>
+        
+        <!-- Outras seções conforme necessário -->
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Amblink. Todos os direitos reservados.</p>
+    </footer>
+
+    <!-- Substitua 'script.js' pelo caminho correto do seu arquivo JavaScript se estiver em uma subpasta -->
     <script src="script.js"></script>
-    <!-- Scripts JavaScript embutidos para demonstração -->
-    <script>
-    document.addEventListener('DOMContentLoaded', (event) => {
-        console.log('DOM completamente carregado e analisado');
-    });
-    </script>
 </body>
 </html>
+
